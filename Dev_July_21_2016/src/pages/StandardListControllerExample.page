@@ -1,0 +1,12 @@
+<apex:page standardController="Merchandise__c" recordSetVar="merchandise__c" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockTable value="{!Merchandise__c}" var="mer">
+                <apex:column value="{!mer.Name}"/>
+                <apex:column value="{!mer.Price__c}"/>
+                <apex:column value="{!mer.Quantity__c}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+               
+</apex:page>

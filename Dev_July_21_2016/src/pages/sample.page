@@ -1,0 +1,39 @@
+<apex:page standardController="Account" tabStyle="Contact">
+    <apex:form > 
+    <apex:pageBlock title="Account Details">
+        <apex:pageBlockSection title="Account Name Details">
+            
+             
+                <apex:inputField label="Account Name" value="{!Account.Name}">
+                     </apex:inputField>
+                    <apex:inputField label="Account phone" value="{!Account.Phone}">
+                    
+                       </apex:inputField>
+            <apex:inputText label="Account Name" value="{!Account.Name}">
+            </apex:inputText>
+                                                        
+                                                                                            
+                                                        
+             
+                 
+            
+             
+        
+             
+        
+        
+        </apex:pageBlockSection>
+        
+        <apex:pageBlockButtons >
+        <apex:commandButton action="{!Save}" value="save"/>
+        
+        </apex:pageBlockButtons>
+        
+        
+        
+    </apex:pageBlock>
+    
+    
+    </apex:form> 
+    
+</apex:page>

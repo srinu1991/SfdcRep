@@ -1,0 +1,7 @@
+<apex:page controller="MyTestClass" >
+    <apex:form >
+        <apex:outputLabel >Enter Name</apex:outputLabel>
+        <apex:inputText value="{!cname}"/>
+        <apex:commandButton action="{!show}" value="save"/>
+    </apex:form>
+</apex:page>

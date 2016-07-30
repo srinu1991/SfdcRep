@@ -1,0 +1,9 @@
+<apex:page controller="CustomControllerExample">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:commandButton action="{!save}" value="save"/>
+            Required Account for You:<apex:inputField value="{!demo.name}"/> 
+            <apex:inputField value="{!demo.id}"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

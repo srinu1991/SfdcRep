@@ -1,0 +1,6 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>This is custom visual force page for Home button settings</h1>
+  This is your new Page
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>
